@@ -98,21 +98,20 @@
 
             <div class="row">
               <div class="col text-center p-2 m-2">
-                <span onclick="">
+                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top" title="verfügbar ab voraussichtlich 09/2023">
                   <img
                       src="img/app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
                       alt="Responsive image"
                       style="height: 64px;opacity: 0.33;"
                   />
-                </span> 
-                &nbsp;
-                <span onclick="">
+                </button>
+                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top" title="verfügbar ab voraussichtlich 09/2023">
                   <img
                       src="img/app-store/google-play-badge-en.png"  
                       alt="Responsive image"
                       style="height: 64px;opacity: 0.33;"
                   />
-                </span>
+                </button> 
               </div>
             </div>
 
@@ -147,11 +146,6 @@
           </div>
         </div>
       </div>
-        <!--<iframe
-            id="Docs"
-            src="manual/index.html"
-            style="overflow: hidden; height: 100vh; width: 100%; display: none"
-        ></iframe>-->
 
         <br/>
           <div id="footer" class="container text-secondary">
@@ -193,6 +187,8 @@
 
         </body>
 
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
         <script>
             let navLinks = [
                 'Home',
@@ -216,8 +212,6 @@
             document.getElementById('nav-link-Home').classList.add('active');
 
             function show(str) {
-                /*document.getElementById('footer').style.display =
-                    str === 'Docs' ? 'none' : 'block';*/
                 if(str === 'Docs') {
                   window.open('docs/build/index.html', '_blank').focus();
                 } else {
@@ -236,8 +230,12 @@
                   }
                 }
             }
+
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+              return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
         </script>
 
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
