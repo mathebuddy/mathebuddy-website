@@ -1,8 +1,201 @@
-<html>
-  <head>
-    <title>Mathe Buddy</title>
-  </head>
-  <body>
-    <img src="img/logo/logo-large.svg"/>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="icon" type="image/png" href="img/logo/logo.png" />
+        <link rel="shortcut icon" type="image/png" href="img/logo/logo.png" />
+
+        <title>
+            MatheBuddy - eine gamifizierte App für die höhere Mathematik
+        </title>
+
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+
+        <style>
+            body {
+                padding-top: 64px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0 m-0" href="#">
+                    &nbsp;
+                    <img
+                        class="p-0 m-0"
+                        src="img/logo/logo.svg"
+                        alt=""
+                        height="48"
+                    />
+                    &nbsp;
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul id="navbar-items" class="navbar-nav"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="Home" class="container">
+            <br />
+            <div class="row text-center">
+            <img
+                src="img/logo/logo-large.svg"
+                class="img-fluid"
+                alt="Responsive image"
+            />
+            </div>
+            <br /><br />
+
+            <div class="row">
+                <div class="col">
+                    <!--<h1>Latest</h1>-->
+                    <p class="lead">
+                      Die Lernanwendung „Mathe-Buddy“ ist eine interaktive und gamifizierte App für die höhere Mathematik im ersten Studienjahr. Studierende werden durch interaktives Training und Elemente des spielerischen Lernens motiviert, begleitet und individuell gefördert.
+                    </p>
+                    <p>Jedes Themengebiet wird durch prägnante, gut verständliche Texte eingeführt und enthält Beispiele, Abbildungen und Verweisen zum Praxisbezug. Ein automatisiertes Lernmanagement stellt abhängig vom Lernstand randomisierte Trainingsaufgaben unterschiedlicher Taxonomiestufen. Die Lernphase wird abgerundet durch kurze Spiele, wie zum Beispiel Schnellabfragen, Mathe-Rätsel und Formelfehlersuche. Das Erreichen von Meilensteinen wird durch Awards und Highscores belohnt. Studierende werden motiviert kontinuierlich auf die Lernziele hinzuarbeiten. Ein integrierter Chatbot beantwortet einfache Fragen und stellt kurze Trainingsaufgaben. Alle Kursbestandteile sind modular aufgebaut und können nichtlinear bearbeitet werden.
+                    </p>
+                    <p>Das niederschwellige Angebot ermöglicht den Studierenden fachliche Lücken eigenständig zu schließen. Mittels eines digitalen Zertifikats kann der erreichte Lernstand nachgewiesen werden. Die App ist Open-Source, kostenfrei und kann ohne zentrale Datenerhebung genutzt werden. Lehrende können selbst einfache Anpassungen und Erweiterung von Kursbestandteilen vornehmen.
+                    </p>
+                    <br/>
+
+                    <span onlick="alert('not yet :-)');">
+                    <img
+                        src="img/app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+                        alt="Responsive image"
+                        style="height: 72px; max-height: 72px;"
+                    />
+                    </span> 
+                    &nbsp;
+                    <img
+                        src="img/app-store/google-play-badge-en.png"  
+                        alt="Responsive image"
+                        style="height: 72px; max-height: 72px;"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <div id="Download" class="container" style="display: none">
+            <br />
+            <div class="row">
+                <div class="col">
+                    <h1>Download</h1>
+                    <p class="lead">... work in progress</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Editor" class="container" style="display: none">
+          <br />
+          <div class="row">
+              <div class="col">
+                  <h1>Editor</h1>
+                  <p class="lead">... work in progress</p>
+              </div>
+          </div>
+      </div>
+
+      <div id="Docs" class="container" style="display: none">
+        <br />
+        <div class="row">
+            <div class="col">
+                <h1>Hilfeseiten</h1>
+                <p class="lead">... work in progress</p>
+            </div>
+        </div>
+    </div>
+        <!--<iframe
+            id="Docs"
+            src="manual/index.html"
+            style="overflow: hidden; height: 100vh; width: 100%; display: none"
+        ></iframe>-->
+
+        <div id="footer" class="container">
+            <footer
+                class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+            >
+                <p class="col mb-0 text-muted">
+                    &copy; 2022 Prof. Dr. Heiko Knospe, Patricia Maria Graf B.Sc., Andreas Schwenk M.Sc., TH Köln
+                </p>
+              
+              <img
+                    src="img/gpl-v3-logo.svg"
+                    class=""
+                    alt="Responsive image"
+                    style="height: 48px"
+                />
+              
+            </footer>
+
+            <a href="https://www.th-koeln.de"></a>
+            <img
+            src="img/logo-th-koeln.png"
+            class=""
+            alt="Responsive image"
+            style="height: 48px"
+          /></a>
+
+        </div>
+
+        <script>
+            let navLinks = [
+                'Home',
+                'Download',
+                'Editor',
+                'Docs',
+            ];
+            let htmlNavbar = '';
+            for (const link of navLinks) {
+                htmlNavbar += `<li class="nav-item">
+                    <a
+                        id="nav-link-$$$"
+                        class="nav-link"
+                        aria-current="page"
+                        onclick="show('$$$')"
+                        style="cursor: pointer"
+                        >$$$</a
+                    >
+                </li>`.replaceAll('$$$', link);
+            }
+            document.getElementById('navbar-items').innerHTML = htmlNavbar;
+            document.getElementById('nav-link-Home').classList.add('active');
+
+            function show(str) {
+                document.getElementById('footer').style.display =
+                    str === 'Docs' ? 'none' : 'block';
+                for (const link of navLinks) {
+                    if (link == str) {
+                        document
+                            .getElementById('nav-link-' + link)
+                            .classList.add('active');
+                    } else {
+                        document
+                            .getElementById('nav-link-' + link)
+                            .classList.remove('active');
+                    }
+                    document.getElementById(link).style.display =
+                        link === str ? 'block' : 'none';
+                }
+            }
+        </script>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
