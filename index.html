@@ -53,21 +53,23 @@
         </nav>
 
         <div id="Home" class="container">
-            <br />
+
             <div class="row text-center">
               <div class="col">
                 <img
                     src="img/logo/logo-large-2.svg"
-                    class="img-fluid w-75 text-center"
+                    class="img-fluid w-75 text-center py-2"
                     alt="Responsive image"
                 />
               </div>
             </div>
-            <br /><br />
+            
+            <br />
 
             <div class="row">
                 <div class="col">
-                    <!--<h1>Latest</h1>-->
+                    
+                    <p class="fw-lighter">Gefördert durch die Stiftung Innovation in der Hochschullehre; FREIRAUM 2022</p>
 
                     <p class="lead">
                       Die Lernanwendung „Mathe-Buddy“ ist eine interaktive und gamifizierte App für die höhere Mathematik im ersten Studienjahr. Studierende werden durch interaktives Training und Elemente des spielerischen Lernens motiviert, begleitet und individuell gefördert.
@@ -77,27 +79,38 @@
                     <p>Das niederschwellige Angebot ermöglicht den Studierenden fachliche Lücken eigenständig zu schließen. Mittels eines digitalen Zertifikats kann der erreichte Lernstand nachgewiesen werden. Die App ist Open-Source, kostenfrei und kann ohne zentrale Datenerhebung genutzt werden. Lehrende können selbst einfach Anpassungen und Erweiterung von Kursbestandteilen vornehmen.
                     </p>
 
-                    <p class="fw-lighter">Gefördert durch die Stiftung Innovation in der Hochschullehre; FREIRAUM</p>
-
                     <br/>
+
+                    <h2>Meilensteinplanung</h2>
+
+                    <p class="text-center py-2">
+                      <img
+                        src="img/timeline.svg"
+                        alt="Responsive image"
+                        style="height: 96px; max-height: 96px;"
+                      />
+                    </p>
+
+                    <h2>Download</h2>
+
                 </div>
             </div>
 
             <div class="row">
               <div class="col text-center p-2 m-2">
-                <span onclick="alert('not yet :-)');">
+                <span onclick="">
                   <img
                       src="img/app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
                       alt="Responsive image"
-                      style="height: 72px; max-height: 72px;"
+                      style="height: 64px;opacity: 0.33;"
                   />
                 </span> 
                 &nbsp;
-                <span onclick="alert('not yet :-)');">
+                <span onclick="">
                   <img
                       src="img/app-store/google-play-badge-en.png"  
                       alt="Responsive image"
-                      style="height: 72px; max-height: 72px;"
+                      style="height: 64px;opacity: 0.33;"
                   />
                 </span>
               </div>
@@ -141,26 +154,41 @@
         ></iframe>-->
 
         <br/>
-          <div id="Home" class="container text-secondary">
+          <div id="footer" class="container text-secondary">
             &copy; 2022 Prof. Dr. Heiko Knospe, Patricia Maria Graf B.Sc., Andreas Schwenk M.Sc., TH Köln
             <br/>
             <br/>
-            <img
-              src="img/gpl-v3-logo.svg"
-              class=""
-              alt="Responsive image"
-              style="height: 48px"
-            />
-            &nbsp;
-            &nbsp;
             <a href="https://www.th-koeln.de">
               <img
               src="img/logo-th-koeln.png"
               class=""
               alt="Responsive image"
               style="height: 48px"
-              />
-            </a>
+              /></a>
+            &nbsp;
+            &nbsp;
+            <a href="https://stiftung-hochschullehre.de">
+              <img
+              src="img/logo_stiftung_hochschullehre.png"
+              class=""
+              alt="Responsive image"
+              style="height: 48px"
+              /></a>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+              <img
+              src="img/gpl-v3-logo.svg"
+              class=""
+              alt="Responsive image"
+              style="height: 48px"
+            /></a>
           </div>
 
         </body>
@@ -168,7 +196,6 @@
         <script>
             let navLinks = [
                 'Home',
-                'Download',
                 'Editor',
                 'Docs',
             ];
@@ -189,20 +216,24 @@
             document.getElementById('nav-link-Home').classList.add('active');
 
             function show(str) {
-                document.getElementById('footer').style.display =
-                    str === 'Docs' ? 'none' : 'block';
-                for (const link of navLinks) {
-                    if (link == str) {
-                        document
-                            .getElementById('nav-link-' + link)
-                            .classList.add('active');
-                    } else {
-                        document
-                            .getElementById('nav-link-' + link)
-                            .classList.remove('active');
-                    }
-                    document.getElementById(link).style.display =
-                        link === str ? 'block' : 'none';
+                /*document.getElementById('footer').style.display =
+                    str === 'Docs' ? 'none' : 'block';*/
+                if(str === 'Docs') {
+                  window.open('docs/build/index.html', '_blank').focus();
+                } else {
+                  for (const link of navLinks) {
+                      if (link == str) {
+                          document
+                              .getElementById('nav-link-' + link)
+                              .classList.add('active');
+                      } else {
+                          document
+                              .getElementById('nav-link-' + link)
+                              .classList.remove('active');
+                      }
+                      document.getElementById(link).style.display =
+                          link === str ? 'block' : 'none';
+                  }
                 }
             }
         </script>
