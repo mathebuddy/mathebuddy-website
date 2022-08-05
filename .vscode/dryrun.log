@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/andi/git/github-mathebuddy/mathebuddy-website'
-make: Leaving directory `/Users/andi/git/github-mathebuddy/mathebuddy-website'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
