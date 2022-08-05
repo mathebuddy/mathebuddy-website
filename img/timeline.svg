@@ -151,8 +151,8 @@
       </g>
       <g class="TextShape">
        <g id="id12">
-        <rect class="BoundingBox" stroke="none" fill="none" x="8338" y="1491" width="2538" height="1040"/>
-        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8588" y="1934"><tspan fill="rgb(51,51,51)" stroke="none" style="white-space: pre">Release</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8588" y="2328"><tspan fill="rgb(51,51,51)" stroke="none" style="white-space: pre">iOS/Android</tspan></tspan></tspan></text>
+        <rect class="BoundingBox" stroke="none" fill="none" x="8338" y="1491" width="3538" height="1040"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8588" y="1934"><tspan fill="rgb(51,51,51)" stroke="none" style="white-space: pre">Release</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8588" y="2328"><tspan fill="rgb(51,51,51)" stroke="none" style="white-space: pre">iOS/Android App</tspan></tspan></tspan></text>
        </g>
       </g>
       <g class="TextShape">
