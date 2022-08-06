@@ -34,7 +34,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand p-0 m-0" href="#">
+            <a class="navbar-brand p-0 m-0" onclick="show('Home');" style="cursor: pointer;">
                 &nbsp;
                 <img class="p-0 m-0" src="img/logo/logo.svg" alt="" height="48" />
                 &nbsp;
@@ -107,7 +107,7 @@
         <br />
         <div class="row">
             <div class="col">
-                <h1>Blog</h1>
+                <h1 class="display-4">Blog</h1>
                 <div id="blog-content"></div>
             </div>
         </div>
@@ -117,7 +117,7 @@
         <br />
         <div class="row">
             <div class="col">
-                <h1>Editor</h1>
+                <h1 class="display-4">Editor</h1>
                 <p class="lead">... work in progress</p>
             </div>
         </div>
@@ -140,16 +140,6 @@
         &nbsp;
         &nbsp;
         &nbsp;
-        &nbsp;
-        &nbsp;
-        <!--<a href="https://flutter.dev">
-              <img
-              src="img/flutter.svg"
-              class=""
-              alt="Responsive image"
-              style="height: 40px"
-            /></a>
-            &nbsp;-->
         <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
             <img src="img/gpl-v3-logo.svg" class="" alt="Responsive image" style="height: 48px" /></a>
     </div>
@@ -160,8 +150,6 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="node_modules/axios/dist/axios.min.js"></script>
-<!--<script src="node_modules/markdown-it-sup/dist/markdown-it-sup.min.js"></script>
-<script src="node_modules/markdown-it/dist/markdown-it.min.js"></script>-->
 <script src="node_modules/showdown/dist/showdown.min.js"></script>
 
 <script>
@@ -178,7 +166,7 @@
                         id="nav-link-$$$"
                         class="nav-link"
                         aria-current="page"
-                        onclick="show('$$$')"
+                        onclick="show('$$$');"
                         style="cursor: pointer"
                         >$$$</a
                     >
@@ -234,20 +222,16 @@
                 filenames.push(filename);
                 html += '<div id="blog_' + filename +'"></div>';
                 html += '<div class="row text-center">';
-                html += '    <img class="" src="' + image + '" style="max-height: 128px;"/>';
+                html += '    <div class="col text-center">';
+                html += '        <img class="img-fluid mx-auto d-block shadow p-3" src="' + image + '"/>';
+                html += '    </div>';
                 html += '</div>';
             }
             document.getElementById('blog-content').innerHTML = html;
             for (const filename of filenames) {
                 axios.get("blog/" + filename).then(function (response) {
-                    //console.log("blog/" + filename);
                     let html = '<br/>';
-                    //html += new markdownit().render(response.data);
                     html += new showdown.Converter().makeHtml(response.data);
-                    //console.log(html);
-                    //html = html.replaceAll('<h2>', '<h2><span style="color: #b92323;">');
-                    //html = html.replaceAll('</h2>', '</span></h2>');
-                    //console.log(html);
                     document.getElementById('blog_' + filename).innerHTML = html;
                 });
             }
