@@ -1,189 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" type="image/png" href="img/logo/logo.png" />
-        <link rel="shortcut icon" type="image/png" href="img/logo/logo.png" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>
-            MatheBuddy - eine gamifizierte App für die höhere Mathematik
-        </title>
+    <link rel="icon" type="image/png" href="img/logo/logo.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logo/logo.png" />
 
-        <link
-            rel="stylesheet"
-            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-        />
+    <title>
+        MatheBuddy - eine gamifizierte App für die höhere Mathematik
+    </title>
 
-        <style>
-            body {
-                padding-top: 64px;
-            }
-            p.indent {
-                text-indent: 24px;
-            }
-        </style>
-    </head>
-    <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand p-0 m-0" href="#">
-                    &nbsp;
-                    <img
-                        class="p-0 m-0"
-                        src="img/logo/logo.svg"
-                        alt=""
-                        height="48"
-                    />
-                    &nbsp;
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul id="navbar-items" class="navbar-nav"></ul>
-                </div>
-            </div>
-        </nav>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-        <div id="Home" class="container">
+    <style>
+        body {
+            padding-top: 64px;
+        }
 
-            <div class="row text-center">
-              <div class="col">
-                <img
-                    src="img/logo/logo-large.svg?v=3"
-                    class="img-fluid w-75 text-center py-2"
-                    alt="Responsive image"
-                />
-              </div>
-            </div>
-            
-            <br />
+        p.indent {
+            text-indent: 24px;
+        }
+    </style>
+</head>
 
-            <div class="row">
-                <div class="col">
-                    
-                    <p class="fw-lighter">Gefördert durch die Stiftung Innovation in der Hochschullehre; FREIRAUM 2022</p>
-
-                    <p class="lead">
-                      Die Lernanwendung <span style="color:#B92323;"><b>mathe:buddy</b></span> ist eine interaktive und gamifizierte App für die höhere Mathematik im ersten Studienjahr. Studierende werden durch interaktives Training und Elemente des spielerischen Lernens motiviert, begleitet und individuell gefördert.
-                    </p>
-
-                    <p class="indent">
-                      Jedes Themengebiet wird durch prägnante, gut verständliche Texte eingeführt und enthält Beispiele, Abbildungen und Verweise zum Praxisbezug. Ein automatisiertes Lernmanagement stellt abhängig vom Lernstand randomisierte Trainingsaufgaben unterschiedlicher Taxonomiestufen. Die Lernphase wird abgerundet durch kurze Spiele, wie zum Beispiel Schnellabfragen, Mathe-Rätsel und Formelfehlersuche. Das Erreichen von Meilensteinen wird durch Awards und Highscores belohnt. Studierende werden motiviert kontinuierlich auf die Lernziele hinzuarbeiten. Ein integrierter Chatbot beantwortet einfache Fragen und stellt kurze Trainingsaufgaben. Alle Kursbestandteile sind modular aufgebaut und können nichtlinear bearbeitet werden.
-                    </p>
-
-                    <p class="indent">
-                      Das niederschwellige Angebot ermöglicht den Studierenden fachliche Lücken eigenständig zu schließen. Mittels eines digitalen Zertifikats kann der erreichte Lernstand nachgewiesen werden. Die App ist Open-Source, kostenfrei und kann ohne zentrale Datenerhebung genutzt werden. Lehrende können selbst einfach Anpassungen und Erweiterung von Kursbestandteilen vornehmen.
-                    </p>
-
-                    <br/>
-
-                    <!--<h2>Meilensteinplanung</h2>-->
-
-                    <p class="text-center py-2">
-                      <img
-                        src="img/timeline.svg"
-                        alt="Responsive image"
-                        style="height: 96px; max-height: 96px;"
-                      />
-                    </p>
-
-                    <!--<h2>Download</h2>-->
-
-                </div>
-            </div>
-
-            <div class="row">
-              <div class="col text-center p-2 m-2">
-                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top" title="verfügbar ab voraussichtlich 09/2023">
-                  <img
-                      src="img/app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
-                      alt="Responsive image"
-                      style="height: 64px;opacity: 0.33;"
-                  />
-                </button>
-                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top" title="verfügbar ab voraussichtlich 09/2023">
-                  <img
-                      src="img/app-store/google-play-badge-en.png"  
-                      alt="Responsive image"
-                      style="height: 64px;opacity: 0.33;"
-                  />
-                </button> 
-              </div>
-            </div>
-
-        </div>
-
-        <div id="Download" class="container" style="display: none">
-            <br />
-            <div class="row">
-                <div class="col">
-                    <h1>Download</h1>
-                    <p class="lead">... work in progress</p>
-                </div>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0 m-0" href="#">
+                &nbsp;
+                <img class="p-0 m-0" src="img/logo/logo.svg" alt="" height="48" />
+                &nbsp;
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul id="navbar-items" class="navbar-nav"></ul>
             </div>
         </div>
+    </nav>
 
-        <div id="Editor" class="container" style="display: none">
-          <br />
-          <div class="row">
-              <div class="col">
-                  <h1>Editor</h1>
-                  <p class="lead">... work in progress</p>
-              </div>
-          </div>
-      </div>
-
-      <div id="Docs" class="container" style="display: none">
+    <div id="Home" class="container">
+        <div class="row text-center">
+            <div class="col">
+                <img src="img/logo/logo-large.svg?v=3" class="img-fluid w-75 text-center py-2" alt="Responsive image" />
+            </div>
+        </div>
         <br />
         <div class="row">
-          <div class="col">
-              <h1>Hilfeseiten</h1>
-              <p class="lead">... work in progress</p>
-          </div>
+            <div class="col">
+                <p class="fw-lighter">Gefördert durch die Stiftung Innovation in der Hochschullehre; FREIRAUM 2022</p>
+                <p class="lead">
+                    Die Lernanwendung <span style="color:#B92323;"><b>mathe:buddy</b></span> ist eine interaktive und
+                    gamifizierte App für die höhere Mathematik im ersten Studienjahr. Studierende werden durch
+                    interaktives Training und Elemente des spielerischen Lernens motiviert, begleitet und individuell
+                    gefördert.
+                </p>
+                <p class="indent">
+                    Jedes Themengebiet wird durch prägnante, gut verständliche Texte eingeführt und enthält Beispiele,
+                    Abbildungen und Verweise zum Praxisbezug. Ein automatisiertes Lernmanagement stellt abhängig vom
+                    Lernstand randomisierte Trainingsaufgaben unterschiedlicher Taxonomiestufen. Die Lernphase wird
+                    abgerundet durch kurze Spiele, wie zum Beispiel Schnellabfragen, Mathe-Rätsel und
+                    Formelfehlersuche. Das Erreichen von Meilensteinen wird durch Awards und Highscores belohnt.
+                    Studierende werden motiviert kontinuierlich auf die Lernziele hinzuarbeiten. Ein integrierter
+                    Chatbot beantwortet einfache Fragen und stellt kurze Trainingsaufgaben. Alle Kursbestandteile sind
+                    modular aufgebaut und können nichtlinear bearbeitet werden.
+                </p>
+                <p class="indent">
+                    Das niederschwellige Angebot ermöglicht den Studierenden fachliche Lücken eigenständig zu
+                    schließen. Mittels eines digitalen Zertifikats kann der erreichte Lernstand nachgewiesen werden. Die
+                    App ist Open-Source, kostenfrei und kann ohne zentrale Datenerhebung genutzt werden. Lehrende können
+                    selbst einfach Anpassungen und Erweiterung von Kursbestandteilen vornehmen.
+                </p>
+                <br />
+                <p class="text-center py-2">
+                    <img src="img/timeline.svg" alt="Responsive image" style="height: 96px; max-height: 96px;" />
+                </p>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="col text-center p-2 m-2">
+                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="verfügbar ab voraussichtlich 09/2023">
+                    <img src="img/app-store/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+                        alt="Responsive image" style="height: 64px;opacity: 0.33;" />
+                </button>
+                <button class="btn" onclick="" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="verfügbar ab voraussichtlich 09/2023">
+                    <img src="img/app-store/google-play-badge-en.png" alt="Responsive image"
+                        style="height: 64px;opacity: 0.33;" />
+                </button>
+            </div>
+        </div>
+    </div>
 
-        <br/>
-          <div id="footer" class="container text-secondary">
-            &copy; 2022 Prof. Dr. Heiko Knospe, Patricia Maria Graf B.Sc., Andreas Schwenk M.Sc., TH Köln.
-            <br/>
-            <br/>
-            <a href="https://www.th-koeln.de">
-              <img
-              src="img/logo-th-koeln.png"
-              class=""
-              alt="Responsive image"
-              style="height: 48px"
-              /></a>
-            &nbsp;
-            &nbsp;
-            <a href="https://stiftung-hochschullehre.de">
-              <img
-              src="img/logo_stiftung_hochschullehre.png"
-              class=""
-              alt="Responsive image"
-              style="height: 48px"
-              /></a>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <!--<a href="https://flutter.dev">
+    <div id="Blog" class="container" style="display: none">
+        <br />
+        <div class="row">
+            <div class="col">
+                <h1>Blog</h1>
+                <div id="blog-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Editor" class="container" style="display: none">
+        <br />
+        <div class="row">
+            <div class="col">
+                <h1>Editor</h1>
+                <p class="lead">... work in progress</p>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <div id="footer" class="container text-secondary">
+        &copy; 2022 Prof. Dr. Heiko Knospe, Patricia Maria Graf B.Sc., Andreas Schwenk M.Sc., TH Köln.
+        <br />
+        <br />
+        <a href="https://www.th-koeln.de">
+            <img src="img/logo-th-koeln.png" class="" alt="Responsive image" style="height: 48px" /></a>
+        &nbsp;
+        &nbsp;
+        <a href="https://stiftung-hochschullehre.de">
+            <img src="img/logo_stiftung_hochschullehre.png" class="" alt="Responsive image" style="height: 48px" /></a>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <!--<a href="https://flutter.dev">
               <img
               src="img/flutter.svg"
               class=""
@@ -191,30 +144,30 @@
               style="height: 40px"
             /></a>
             &nbsp;-->
-            <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-              <img
-              src="img/gpl-v3-logo.svg"
-              class=""
-              alt="Responsive image"
-              style="height: 48px"
-            /></a>
-          </div>
+        <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+            <img src="img/gpl-v3-logo.svg" class="" alt="Responsive image" style="height: 48px" /></a>
+    </div>
 
-          <br/><br/>
+    <br /><br />
 
-        </body>
+</body>
 
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/axios/dist/axios.min.js"></script>
+<!--<script src="node_modules/markdown-it-sup/dist/markdown-it-sup.min.js"></script>
+<script src="node_modules/markdown-it/dist/markdown-it.min.js"></script>-->
+<script src="node_modules/showdown/dist/showdown.min.js"></script>
 
-        <script>
-            let navLinks = [
-                'Home',
-                'Editor',
-                'Docs',
-            ];
-            let htmlNavbar = '';
-            for (const link of navLinks) {
-                htmlNavbar += `<li class="nav-item">
+<script>
+    let navLinks = [
+        'Home',
+        'Blog',
+        'Editor',
+        'Docs',
+    ];
+    let htmlNavbar = '';
+    for (const link of navLinks) {
+        htmlNavbar += `<li class="nav-item">
                     <a
                         id="nav-link-$$$"
                         class="nav-link"
@@ -224,35 +177,73 @@
                         >$$$</a
                     >
                 </li>`.replaceAll('$$$', link);
-            }
-            document.getElementById('navbar-items').innerHTML = htmlNavbar;
-            document.getElementById('nav-link-Home').classList.add('active');
+    }
+    document.getElementById('navbar-items').innerHTML = htmlNavbar;
+    document.getElementById('nav-link-Home').classList.add('active');
 
-            function show(str) {
-                if(str === 'Docs') {
-                  window.open('docs/build/index.html', '_blank').focus();
+    function show(str) {
+        if (str === 'Docs') {
+            window.open('docs/build/index.html', '_blank').focus();
+        } else {
+            for (const link of navLinks) {
+                if (link == str) {
+                    document
+                        .getElementById('nav-link-' + link)
+                        .classList.add('active');
                 } else {
-                  for (const link of navLinks) {
-                      if (link == str) {
-                          document
-                              .getElementById('nav-link-' + link)
-                              .classList.add('active');
-                      } else {
-                          document
-                              .getElementById('nav-link-' + link)
-                              .classList.remove('active');
-                      }
-                      document.getElementById(link).style.display =
-                          link === str ? 'block' : 'none';
-                  }
+                    document
+                        .getElementById('nav-link-' + link)
+                        .classList.remove('active');
                 }
+                if (link !== 'Docs')
+                    document.getElementById(link).style.display =
+                        link === str ? 'block' : 'none';
             }
+        }
+    }
 
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-              return new bootstrap.Tooltip(tooltipTriggerEl)
-            })
-        </script>
+    function generateBlog() {
+        axios.get("blog/list.txt").then(function (response) {
+            let lines = response.data.split('\n');
+            const filenames = [];
+            let html = '';
+            for (const line of lines) {
+                const data = line.trim();
+                if (data.length == 0) continue;
+                const tokens = data.split('#');
+                let filename = tokens[0];
+                let image = ''
+                if (tokens.length > 1) image = tokens[1];
+                filenames.push(filename);
+                html += '<div id="blog_' + filename +'"></div>';
+                html += '<div class="row text-center">';
+                html += '    <img class="" src="' + image + '" style="max-height: 128px;"/>';
+                html += '</div>';
+            }
+            document.getElementById('blog-content').innerHTML = html;
+            for (const filename of filenames) {
+                axios.get("blog/" + filename).then(function (response) {
+                    //console.log("blog/" + filename);
+                    let html = '<br/>';
+                    //html += new markdownit().render(response.data);
+                    html += new showdown.Converter().makeHtml(response.data);
+                    //console.log(html);
+                    //html = html.replaceAll('<h2>', '<h2><span style="color: #b92323;">');
+                    //html = html.replaceAll('</h2>', '</span></h2>');
+                    //console.log(html);
+                    document.getElementById('blog_' + filename).innerHTML = html;
+                });
+            }
+        });
+    }
+    generateBlog();
 
-    </body>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+</body>
+
 </html>
