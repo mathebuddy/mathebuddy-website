@@ -13,6 +13,7 @@
     </title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
 
     <style>
         body {
@@ -178,6 +179,17 @@
                     >
                 </li>`.replaceAll('$$$', link);
     }
+    htmlNavbar += `<li class="nav-item">
+        <a
+            class="nav-link"
+            aria-current="page"
+            href="https://github.com/mathebuddy"
+            target="_blank"
+            style="cursor: pointer"
+            ><i class="fa-brands fa-github"></i></a
+        >
+    </li>`;
+
     document.getElementById('navbar-items').innerHTML = htmlNavbar;
     document.getElementById('nav-link-Home').classList.add('active');
 
