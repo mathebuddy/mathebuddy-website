@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   sodipodi:docname="mockup-question.svg"
+   sodipodi:docname="mockup-text.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,18 +24,24 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.6822383"
-     inkscape:cx="158.71711"
-     inkscape:cy="120.37534"
+     inkscape:zoom="2.5470934"
+     inkscape:cx="28.267515"
+     inkscape:cy="172.54962"
      inkscape:window-width="1390"
      inkscape:window-height="1205"
-     inkscape:window-x="1052"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showguides="false" />
   <defs
      id="defs2">
+    <rect
+       x="107.81383"
+       y="297.66675"
+       width="62.393716"
+       height="23.260126"
+       id="rect7700" />
     <rect
        x="57.982878"
        y="55.180731"
@@ -99,8 +105,8 @@
     <rect
        x="99.85125"
        y="195.80586"
-       width="165.53503"
-       height="111.09373"
+       width="176.06474"
+       height="113.28742"
        id="rect7122-1" />
     <filter
        style="color-interpolation-filters:sRGB;"
@@ -468,6 +474,24 @@
        width="20.556775"
        height="23.06927"
        id="rect14608" />
+    <rect
+       x="107.81383"
+       y="297.66675"
+       width="62.393716"
+       height="23.260126"
+       id="rect8023" />
+    <rect
+       x="107.81383"
+       y="297.66675"
+       width="62.393716"
+       height="23.260126"
+       id="rect8029" />
+    <rect
+       x="107.81383"
+       y="297.66675"
+       width="62.393716"
+       height="23.260126"
+       id="rect8035" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -533,9 +557,9 @@
        inkscape:label="time"><tspan
          x="18.925781"
          y="23.808049"
-         id="tspan8814"><tspan
+         id="tspan9897"><tspan
            style="font-weight:normal;font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8812">11:11</tspan></tspan></text>
+           id="tspan9895">11:11</tspan></tspan></text>
     <g
        id="g4401"
        inkscape:label="cell"
@@ -582,7 +606,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="keyboard"
-     style="display:inline">
+     style="display:none">
     <path
        id="rect9614"
        style="display:inline;fill:#abc837;stroke-width:0.255436"
@@ -743,7 +767,7 @@
        inkscape:label="char-7"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8816">7</tspan></text>
+         id="tspan9899">7</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.8281623,11.472056)"
@@ -752,7 +776,7 @@
        inkscape:label="char-4"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8818">4</tspan></text>
+         id="tspan9901">4</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.957159,5.9825056)"
@@ -761,7 +785,7 @@
        inkscape:label="char-8"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8820">8</tspan></text>
+         id="tspan9903">8</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.9926713,11.472056)"
@@ -770,7 +794,7 @@
        inkscape:label="char-5"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8822">5</tspan></text>
+         id="tspan9905">5</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,9.7779938,5.9825056)"
@@ -779,7 +803,7 @@
        inkscape:label="char-9"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8824">9</tspan></text>
+         id="tspan9907">9</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,9.8135058,11.472056)"
@@ -788,7 +812,7 @@
        inkscape:label="char-6"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8826">6</tspan></text>
+         id="tspan9909">6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,15.958999,11.295441)"
@@ -797,7 +821,7 @@
        inkscape:label="char-minus"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8828">-</tspan></text>
+         id="tspan9911">-</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,15.634343,5.9521231)"
@@ -806,7 +830,7 @@
        inkscape:label="char-plus"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8830">+</tspan></text>
+         id="tspan9913">+</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.8281623,16.987058)"
@@ -815,7 +839,7 @@
        inkscape:label="char-1"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8832">1</tspan></text>
+         id="tspan9915">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.9926713,16.987058)"
@@ -824,7 +848,7 @@
        inkscape:label="char-2"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8834">2</tspan></text>
+         id="tspan9917">2</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,9.8135058,16.987058)"
@@ -833,7 +857,7 @@
        inkscape:label="char-3"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8836">3</tspan></text>
+         id="tspan9919">3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,10.36758,22.437992)"
@@ -842,7 +866,7 @@
        inkscape:label="char-i"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8838">i</tspan></text>
+         id="tspan9921">i</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.8467731,22.557893)"
@@ -851,7 +875,7 @@
        inkscape:label="char-0"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8840">0</tspan></text>
+         id="tspan9923">0</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,16.095086,22.557893)"
@@ -860,7 +884,7 @@
        inkscape:label="char-div"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8842">/</tspan></text>
+         id="tspan9925">/</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,15.888493,17.700025)"
@@ -869,7 +893,7 @@
        inkscape:label="char-mul"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8844">*</tspan></text>
+         id="tspan9927">*</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,2.2879729,31.087325)"
@@ -879,9 +903,9 @@
        y="0"><tspan
          x="87.764648"
          y="189.12155"
-         id="tspan8848"><tspan
+         id="tspan9931"><tspan
            style="font-family:Courier;-inkscape-font-specification:Courier;fill:#ffffff"
-           id="tspan8846">4+6i</tspan></tspan></text>
+           id="tspan9929">4+6i</tspan></tspan></text>
     <rect
        style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#abc837;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect16481"
@@ -901,7 +925,7 @@
     <path
        id="rect3676"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#668000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       d="M 40.304517 83.448136 C 39.436532 83.448136 38.737687 84.146981 38.737687 85.014966 L 38.737687 89.975903 C 38.737687 90.090856 38.750062 90.20298 38.773344 90.310767 L 38.773344 92.794853 C 38.773344 93.307698 39.186023 93.720378 39.698869 93.720378 L 42.885238 93.720378 C 43.398083 93.720378 43.810763 93.307698 43.810763 92.794853 L 43.810763 89.863765 C 43.810763 89.775707 43.798383 89.690613 43.775623 89.610034 L 43.775623 85.014966 C 43.775623 84.146981 43.076778 83.448136 42.208793 83.448136 L 40.304517 83.448136 z " />
+       d="m 40.304517,83.448136 c -0.867985,0 -1.56683,0.698845 -1.56683,1.56683 v 4.960937 c 0,0.114953 0.01237,0.227077 0.03566,0.334864 v 2.484086 c 0,0.512845 0.412679,0.925525 0.925525,0.925525 h 3.186369 c 0.512845,0 0.925525,-0.41268 0.925525,-0.925525 v -2.931088 c 0,-0.08806 -0.01238,-0.173152 -0.03514,-0.253731 v -4.595068 c 0,-0.867985 -0.698845,-1.56683 -1.56683,-1.56683 z" />
     <path
        id="path10414"
        style="display:inline;fill:#ffffff;stroke:#abc837;stroke-width:0"
@@ -921,7 +945,7 @@
        inkscape:label="char-0"><tspan
          x="71.492188"
          y="306.14108"
-         id="tspan8850">,</tspan></text>
+         id="tspan9933">,</tspan></text>
   </g>
   <g
      inkscape:label="foreground"
@@ -937,38 +961,32 @@
        y="0"><tspan
          x="123.73357"
          y="207.97101"
-         id="tspan8854"><tspan
+         id="tspan9937"><tspan
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
-           id="tspan8852">KOMPLEXE ZAHLEN</tspan></tspan></text>
+           id="tspan9935">KOMPLEXE ZAHLEN</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text1265"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;white-space:pre;shape-inside:url(#rect1267);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.51181;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.378093;stroke-dasharray:none;stroke-opacity:1"
-       id="path1678"
-       cx="9.3724079"
-       cy="32.979084"
-       r="1.9576108" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-7.9517041,-34.296473)"
+       transform="matrix(0.26458333,0,0,0.26458333,-7.9517041,-34.82564)"
        id="text1680"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;white-space:pre;shape-inside:url(#rect1682);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="61.488281"
          y="259.28542"
-         id="tspan8856">?</tspan></text>
+         id="tspan9939">?</tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-13.484081,-20.37016)"
+       transform="matrix(0.26458333,0,0,0.26458333,-18.775748,-20.899327)"
        id="text1700"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;shape-inside:url(#rect1702);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#002323;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="99.851562"
          y="205.53819"
-         id="tspan8860"><tspan
+         id="tspan9943"><tspan
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
-           id="tspan8858">Addition</tspan></tspan></text>
+           id="tspan9941">Einführung</tspan></tspan></text>
     <rect
        style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect3249"
@@ -990,102 +1008,99 @@
        inkscape:label="dots"><tspan
          x="162.18359"
          y="217.61003"
-         id="tspan8862">...</tspan></text>
-    <rect
-       style="display:inline;fill:#abc837;fill-opacity:1;stroke:#abc837;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4719"
-       width="12.608773"
-       height="3.7328413"
-       x="20.305792"
-       y="51.975761"
-       ry="1.8664206" />
+         id="tspan9945">...</tspan></text>
     <path
        sodipodi:nodetypes="asczsszsszszsssssa"
        id="path10-9-0-7"
        d="M 7.7567055,16.164691 C 7.2233018,15.813494 7.3307338,15.017525 7.3161428,14.300118 c -0.01459,-0.717406 -0.02476,-1.751195 0.2838327,-1.946885 0.6341857,-0.332391 0.8887954,0.269729 1.3723511,0.278407 0.483559,0.0087 0.9460687,-0.570732 1.4543264,-0.266072 0.238535,0.142984 0.122704,0.628507 0.296364,0.86664 0.132827,0.182139 0.923366,0.135273 1.04809,-0.06163 0.124726,-0.19691 -5.2e-5,-1.079524 -0.154857,-1.377656 -0.234801,-0.452239 -0.868648,-0.867724 -1.532445,-0.643417 -0.3836317,0.129636 -0.7721104,0.430452 -1.0935804,0.424537 -0.3214727,-0.006 -0.5751607,-0.321264 -1.0509504,-0.442643 -0.7870764,-0.200791 -1.2305641,0.05219 -1.4569461,0.529511 -0.2263807,0.47733 -0.3068387,1.989655 -0.2614817,2.988649 0.03758,0.827788 -0.04535,1.757371 0.7666034,2.289557 1.3751384,0.901328 4.7549272,0.701871 4.7434642,-1.352815 -0.01109,-1.987395 -3.9302045,-1.759352 -3.7447068,-0.934774 0.185712,0.825522 2.4988598,-0.186546 2.5827938,1.018115 0.05952,0.854128 -2.0172951,1.018491 -2.8122955,0.495057 z"
        style="mix-blend-mode:normal;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#abc837;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
-       id="rect13924"
-       width="12.608773"
-       height="3.7328413"
-       x="20.305792"
-       y="58.557217"
-       ry="1.8664206" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-18.698119,-11.811868)"
+       transform="matrix(0.26458333,0,0,0.26458333,-18.698119,-13.928536)"
        id="text7120-3"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;shape-inside:url(#rect7122-1);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#002323;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect7122-1);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:#002323;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="99.851562"
          y="204.32172"
-         id="tspan8874"><tspan
+         id="tspan9949"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8864">Sei z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8866">1 </tspan><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8868">= 3 + 4i und z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8870">2 </tspan><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8872">= 1 + 2i.
-</tspan></tspan><tspan
+           id="tspan9947">Über den reellen Zahlen können </tspan></tspan><tspan
          x="99.851562"
          y="216.09642"
-         id="tspan8878"><tspan
+         id="tspan9957"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8876">
-</tspan></tspan><tspan
+           id="tspan9951">Gleichungen wie x</tspan><tspan
+           style="font-size:65%;baseline-shift:super"
+           id="tspan9953">2</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan9955"> = -1 nicht gelöst </tspan></tspan><tspan
          x="99.851562"
          y="227.87113"
-         id="tspan8882"><tspan
+         id="tspan9961"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8880">Berechne:
-</tspan></tspan><tspan
+           id="tspan9959">werden, da keine Quadratwurzeln aus </tspan></tspan><tspan
          x="99.851562"
          y="239.64583"
-         id="tspan8886"><tspan
+         id="tspan9965"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8884">
-</tspan></tspan><tspan
+           id="tspan9963">negativen Zahlen existieren. Deshalb </tspan></tspan><tspan
          x="99.851562"
          y="251.42054"
-         id="tspan8902"><tspan
+         id="tspan9969"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8888">    z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8890">1 </tspan><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8892">+ z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8894">2</tspan><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8896"> =      </tspan><tspan
-           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff"
-           id="tspan8898">4 + 6i</tspan><tspan
-           style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8900">
-</tspan></tspan><tspan
+           id="tspan9967">erweitert man den Zahlbereich auf die </tspan></tspan><tspan
          x="99.851562"
          y="263.19524"
-         id="tspan8906"><tspan
+         id="tspan9977"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8904">
-</tspan></tspan><tspan
+           id="tspan9971">sogennanten </tspan><tspan
+           style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan9973">komplexen Zahlen</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan9975">, die wir </tspan></tspan><tspan
          x="99.851562"
          y="274.96994"
-         id="tspan8918"><tspan
+         id="tspan9981"><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8908">    z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8910">2 </tspan><tspan
+           id="tspan9979">später als Ausdrücke der Form 
+</tspan></tspan><tspan
+         x="99.851562"
+         y="286.74463"
+         id="tspan10013"><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan9983">x</tspan><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8912">- z</tspan><tspan
-           style="font-size:65%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub"
-           id="tspan8914">2</tspan><tspan
+           id="tspan9985"> + </tspan><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan9987">y</tspan><tspan
            style="font-family:Arial;-inkscape-font-specification:Arial"
-           id="tspan8916"> =  </tspan></tspan></text>
+           id="tspan9989"> √-1 = </tspan><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan9991">x</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan9993"> + </tspan><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan9995">y</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan9997">i mit </tspan><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan9999">x</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan10001">, </tspan><tspan
+           style="font-style:italic;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+           id="tspan10003">y</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan10005"> ∈</tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan10007"> R</tspan><tspan
+           style="font-weight:bold"
+           id="tspan10009"> </tspan><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan10011">darstellen </tspan></tspan><tspan
+         x="99.851562"
+         y="298.51935"
+         id="tspan10017"><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan10015">werden.</tspan></tspan></text>
     <rect
        style="fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
        id="rect960"
@@ -1127,9 +1142,9 @@
        y="0"><tspan
          x="57.982422"
          y="64.789718"
-         id="tspan8922"><tspan
+         id="tspan10021"><tspan
            style="font-weight:normal;-inkscape-font-specification:Arial"
-           id="tspan8920">T</tspan></tspan></text>
+           id="tspan10019">T</tspan></tspan></text>
     <path
        style="fill:#d4aa00;fill-opacity:1;stroke:#abc837;stroke-width:0"
        id="path1612"
@@ -1163,9 +1178,9 @@
        y="0"><tspan
          x="57.982422"
          y="64.789718"
-         id="tspan8926"><tspan
+         id="tspan10025"><tspan
            style="font-weight:normal;-inkscape-font-specification:Arial"
-           id="tspan8924">?</tspan></tspan></text>
+           id="tspan10023">?</tspan></tspan></text>
     <path
        style="fill:#abc837;fill-opacity:1;stroke:#abc837;stroke-width:0"
        id="path1622"
@@ -1196,5 +1211,103 @@
        id="path2148"
        d="m 50.083455,14.950184 c -0.215343,-0.141783 -0.171971,-0.463128 -0.177861,-0.752756 -0.0059,-0.289627 -0.01005,-0.706984 0.114587,-0.785987 0.25603,-0.134192 0.35882,0.108896 0.554039,0.112395 0.195219,0.0035 0.381942,-0.230413 0.587133,-0.107421 0.0963,0.05772 0.04954,0.253737 0.119652,0.349875 0.05363,0.07353 0.372778,0.05462 0.42313,-0.02488 0.05035,-0.0795 -2e-5,-0.435821 -0.06251,-0.556181 -0.09479,-0.182577 -0.350686,-0.350313 -0.618672,-0.259758 -0.154876,0.05233 -0.311711,0.173781 -0.441493,0.171392 -0.129783,-0.0025 -0.232202,-0.129704 -0.424285,-0.178701 -0.317754,-0.08106 -0.496797,0.02107 -0.588192,0.213772 -0.09139,0.192705 -0.123882,0.803253 -0.105567,1.206562 0.01517,0.334191 -0.01831,0.709477 0.309489,0.924329 0.555164,0.363879 1.919635,0.283355 1.915008,-0.546152 -0.0044,-0.802341 -1.586682,-0.710277 -1.511794,-0.377382 0.07498,0.333276 1.008826,-0.07531 1.042712,0.411028 0.02403,0.344824 -0.814412,0.41118 -1.135365,0.199862 z"
        style="mix-blend-mode:normal;fill:#abc837;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.103049"
+       id="rect2443"
+       width="23.121939"
+       height="0.23355491"
+       x="17.436522"
+       y="95.32312"
+       ry="0.11677746" />
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.103049"
+       id="rect5229"
+       width="23.121939"
+       height="0.23355491"
+       x="75.393097"
+       y="-20.784143"
+       ry="0.11677746"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:0.120066"
+       id="rect5610"
+       width="14.226532"
+       height="0.51530987"
+       x="63.16103"
+       y="-59.803806"
+       ry="0.25765494"
+       transform="rotate(115.31311)" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:0.182752;stroke:none;stroke-width:0.0503684"
+       id="rect5662"
+       width="6.6742239"
+       height="0.19330421"
+       x="20.656578"
+       y="81.034119"
+       ry="0.096652105" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:0.182752;stroke:none;stroke-width:0.0737229"
+       id="rect7644"
+       width="14.298467"
+       height="0.19330421"
+       x="-95.307053"
+       y="27.243097"
+       ry="0.096652105"
+       transform="rotate(-90)" />
+    <path
+       id="rect5612"
+       style="fill:#4d4d4d;stroke-width:0.25"
+       d="m 27.329296,81.066401 0.15013,2.218664 -1.762528,-0.687267 z"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,10.962376,18.356743)"
+       id="text7698"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:Arial;-inkscape-font-specification:'Arial Italic';direction:ltr;white-space:pre;shape-inside:url(#rect7700);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.944882"><tspan
+         x="107.81445"
+         y="307.30001"
+         id="tspan10029"><tspan
+           style="font-style:normal;-inkscape-font-specification:Arial"
+           id="tspan10027">Re</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-13.306468,-5.0200997)"
+       id="text8021"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:Arial;-inkscape-font-specification:'Arial Italic';direction:ltr;white-space:pre;shape-inside:url(#rect8023);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.944882"><tspan
+         x="107.81445"
+         y="307.30001"
+         id="tspan10033"><tspan
+           style="font-style:normal;-inkscape-font-specification:Arial"
+           id="tspan10031">Im</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.737624,17.298409)"
+       id="text8027"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:Arial;-inkscape-font-specification:'Arial Italic';direction:ltr;white-space:pre;shape-inside:url(#rect8029);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.944882"><tspan
+         x="107.81445"
+         y="307.30001"
+         id="tspan10037"><tspan
+           style="font-style:normal;-inkscape-font-specification:Arial"
+           id="tspan10035">x</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-11.1898,0.80073388)"
+       id="text8033"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:Arial;-inkscape-font-specification:'Arial Italic';direction:ltr;white-space:pre;shape-inside:url(#rect8035);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.944882"><tspan
+         x="107.81445"
+         y="307.30001"
+         id="tspan10041"><tspan
+           style="font-style:normal;-inkscape-font-specification:Arial"
+           id="tspan10039">y</tspan></tspan></text>
+    <path
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.25"
+       d="m 19.703928,76.239739 0.949748,-1.905382 0.937038,1.905383 c -0.936546,-0.91911 -0.930737,-0.923081 -1.886786,-10e-7 z"
+       id="path8565"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.25"
+       d="m 39.838557,94.528251 1.905383,0.949748 -1.905383,0.937038 c 0.91911,-0.936546 0.92308,-0.930737 0,-1.886786 z"
+       id="path8624"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
