@@ -11,6 +11,8 @@ for (const link of navLinks) {
                     id="nav-link-$$$"
                     class="nav-link"
                     aria-current="page"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     onclick="show('$$$');"
                     style="cursor: pointer"
                     >$$$</a
@@ -21,6 +23,8 @@ htmlNavbar += `<li class="nav-item">
     <a
         class="nav-link"
         aria-current="page"
+        data-bs-toggle="collapse"
+        data-bs-target=".navbar-collapse.show"
         href="https://github.com/mathebuddy"
         target="_blank"
         style="cursor: pointer"
