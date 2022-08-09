@@ -5,7 +5,7 @@ if (page == null) page = 'home';
 let navLinks = [ // id, rendered name, href
     'home # Home # .',
     'blog # Blog # .',
-    'editor # Editor # .',
+    //'editor # Editor # .',
     'docs # Docs # docs/build/index.html',
     'github # <i class="fa-brands fa-github"></i> # https://github.com/mathebuddy'
 ];
