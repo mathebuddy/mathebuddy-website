@@ -1,58 +1,47 @@
-let navLinks = [
-    'Home',
-    'Blog',
-    'Editor',
-    'Docs',
+let urlParameters = new URLSearchParams(window.location.search);
+let page = urlParameters.get('page');
+if (page == null) page = 'home';
+
+let navLinks = [ // id, rendered name, href
+    'home # Home # .',
+    'blog # Blog # .',
+    'editor # Editor # .',
+    'docs # Docs # docs/build/index.html',
+    'github # <i class="fa-brands fa-github"></i> # https://github.com/mathebuddy'
 ];
+
 let htmlNavbar = '';
 for (const link of navLinks) {
+    const tokens = link.split('#');
+    const id = tokens[0].trim();
+    const name = tokens[1].trim();
+    const active = id === page ? ' active' : '';
+    let href = tokens[2].trim();
+    let target = '_self';
+    if (href === '.') {
+        href = 'index.html?page=' + id;
+        const element = document.getElementById(id);
+        if (element != null)
+            document.getElementById(id).style.display =
+                id === page ? 'block' : 'none';
+    } else {
+        target = '_blank';
+    }
+
     htmlNavbar += `<li class="nav-item">
-                <a
-                    id="nav-link-$$$"
-                    class="nav-link"
-                    aria-current="page"
-                    onclick="show('$$$');document.getElementById('navbar-collapse').collapse('hide');"
-                    style="cursor: pointer"
-                    >$$$</a
-                >
-            </li>`.replaceAll('$$$', link);
-}
-htmlNavbar += `<li class="nav-item">
     <a
-        class="nav-link"
+        id="nav-link-`+ id + `"
+        class="nav-link` + active + `"
         aria-current="page"
-        href="https://github.com/mathebuddy"
-        target="_blank"
+        href="`+ href + `"
+        target="`+ target + `"
         style="cursor: pointer"
-        ><i class="fa-brands fa-github"></i></a
-    >
-</li>`;
+        >`+ name + `</a></li>`;
+}
 
 document.getElementById('navbar-items').innerHTML = htmlNavbar;
-document.getElementById('nav-link-Home').classList.add('active');
 
-function show(str) {
-    if (str === 'Docs') {
-        window.open('docs/build/index.html', '_blank').focus();
-    } else {
-        for (const link of navLinks) {
-            if (link == str) {
-                document
-                    .getElementById('nav-link-' + link)
-                    .classList.add('active');
-            } else {
-                document
-                    .getElementById('nav-link-' + link)
-                    .classList.remove('active');
-            }
-            if (link !== 'Docs')
-                document.getElementById(link).style.display =
-                    link === str ? 'block' : 'none';
-        }
-    }
-}
-
-function generateBlog() {
+if (page === 'blog') {
     axios.get("blog/list.txt").then(function (response) {
         let lines = response.data.split('\n');
         const filenames = [];
@@ -82,5 +71,3 @@ function generateBlog() {
         }
     });
 }
-
-generateBlog();
