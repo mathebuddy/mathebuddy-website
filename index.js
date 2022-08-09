@@ -46,6 +46,10 @@ function runSite(navLinks) {
 
     // ===== build blog from files from subdirectory blog/ =====
     if (page === 'blog') {
+        if (document.getElementById('blog-content') == null) {
+            console.log('HTML has no "blog-content" element');
+            return;
+        }
         axios.get("blog/list.txt").then(function (response) {
             let lines = response.data.split('\n');
             const filenames = [];
