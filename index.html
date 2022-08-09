@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="utf-8" />
@@ -35,6 +35,8 @@
 </head>
 
 <body>
+
+    <!-- ===== NAVBAR ===== -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand p-0 m-0" href="index.html" style="cursor: pointer;">
@@ -52,6 +54,7 @@
         </div>
     </nav>
 
+    <!-- ===== HOME ===== -->
     <div id="home" class="container">
         <div class="row text-center">
             <div class="col">
@@ -107,6 +110,7 @@
         </div>
     </div>
 
+    <!-- ===== BLOG ===== -->
     <div id="blog" class="container" style="display: none">
         <br />
         <div class="row">
@@ -117,6 +121,7 @@
         </div>
     </div>
 
+    <!-- ===== EDITOR ===== -->
     <div id="editor" class="container" style="display: none">
         <br />
         <div class="row">
@@ -127,6 +132,7 @@
         </div>
     </div>
 
+    <!-- ===== FOOTER ===== -->
     <br />
     <div id="footer" class="container text-secondary">
         &copy; 2022 Prof. Dr. Heiko Knospe, Patricia Maria Graf B.Sc., Andreas Schwenk M.Sc., TH Köln.
@@ -147,23 +153,31 @@
         <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
             <img src="img/gpl-v3-logo.svg" class="" alt="Responsive image" style="height: 48px" /></a>
     </div>
-
     <br /><br />
 
-</body>
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="node_modules/showdown/dist/showdown.min.js"></script>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="node_modules/axios/dist/axios.min.js"></script>
-<script src="node_modules/showdown/dist/showdown.min.js"></script>
+    <script src="index.js?v=20220809"></script>
 
-<script src="index.js?v=20220809"></script>
+    <script>
 
-<script>
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-</script>
+        const navLinks = [ // id, rendered name, href
+            'home # Home # .',
+            'blog # Blog # .',
+            //'editor # Editor # .',
+            'docs # Docs # docs/build/index.html',
+            'github # <i class="fa-brands fa-github"></i> # https://github.com/mathebuddy'
+        ];
+        runSite(navLinks);
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
 
 </body>
 
