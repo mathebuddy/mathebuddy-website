@@ -8,6 +8,7 @@ MatheBuddy Hilfeseiten
 
    intro/index.rst
    editor/index.rst
+   dev/index.rst
 
 ..
   Indices and tables
