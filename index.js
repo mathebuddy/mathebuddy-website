@@ -11,7 +11,7 @@ for (const link of navLinks) {
                     id="nav-link-$$$"
                     class="nav-link"
                     aria-current="page"
-                    onclick="show('$$$');document.getElementById('navbar-toggler').click();"
+                    onclick="show('$$$');document.getElementById('.navbar-collapse').collapse('hide');"
                     style="cursor: pointer"
                     >$$$</a
                 >
