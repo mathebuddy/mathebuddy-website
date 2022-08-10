@@ -5,7 +5,7 @@ Steps to add a new blog entry:
    current  date and ``TITLE`` by an uppercase short title. The file contains
    the blog text in Markdown. Use the existing files as example.
 
-2. Edit file list.txt: add a new line at the beginning. 
+2. Edit file ``list.txt``: add a new line at the beginning. 
    Format: ``FILE`` or ``FILE # IMAGE_PATH``. 
    The file is the filename of step 1. ``IMAGE_PATH`` is a file path relative to 
    the repository.
