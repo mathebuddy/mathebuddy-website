@@ -7,9 +7,9 @@
    viewBox="0 0 200 64"
    height="64mm"
    width="200mm"
-   inkscape:export-filename="../../../../../Downloads/yyy.png"
-   inkscape:export-xdpi="635"
-   inkscape:export-ydpi="635"
+   inkscape:export-filename="logo-large.png"
+   inkscape:export-xdpi="279.72455"
+   inkscape:export-ydpi="279.72455"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -99,18 +99,18 @@
        id="rect24427-4" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:window-y="25"
      inkscape:window-x="0"
-     inkscape:window-height="802"
-     inkscape:window-width="1440"
+     inkscape:window-height="1205"
+     inkscape:window-width="1390"
      showgrid="false"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="162.46078"
-     inkscape:cx="392.79168"
-     inkscape:zoom="0.93561045"
+     inkscape:cy="163.79688"
+     inkscape:cx="224.84361"
+     inkscape:zoom="2.8175139"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -147,21 +147,21 @@
        style="font-size:85.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;white-space:pre;shape-inside:url(#rect24427);display:inline;fill:#b92323;fill-opacity:1;stroke:#b92323;stroke-opacity:1"><tspan
          x="97.843956"
          y="113.0245"
-         id="tspan4520">mathe:buddy
+         id="tspan486">mathe:buddy
 </tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.12197097,0,0,0.12197097,8.6807253,32.113254)"
        id="text24425-4"
        style="font-size:57.8462px;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;white-space:pre;shape-inside:url(#rect24427-9);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-opacity:1"><tspan
-         x="484.31342"
+         x="346.08134"
          y="88.265376"
-         id="tspan4524">eine <tspan
+         id="tspan490">eine <tspan
    style="fill:#b92323;stroke:#b92323"
-   id="tspan4522">G</tspan>amifizierte App
+   id="tspan488">G</tspan>amifizierte Lern-App
 </tspan><tspan
-         x="362.12463"
+         x="352.52125"
          y="160.57312"
-         id="tspan4526">für die höhere Mathematik</tspan></text>
+         id="tspan492">für die Höhere Mathematik</tspan></text>
   </g>
 </svg>
