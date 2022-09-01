@@ -50,7 +50,7 @@ function runSite(navLinks) {
             console.log('HTML has no "blog-content" element');
             return;
         }
-        axios.get("blog/list.txt").then(function (response) {
+        axios.get("blog/list.txt?time=" + Date().now()).then(function (response) {
             let lines = response.data.split('\n');
             const filenames = [];
             let html = '';
