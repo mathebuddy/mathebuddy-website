@@ -1,21 +1,22 @@
 {
-    "cSpell.words": [
-        "Andreas",
-        "browserconfig",
-        "conglomerare",
-        "fontawesome",
-        "fortawesome",
-        "fundamentum",
-        "gamifizierte",
-        "Gamifizierung",
-        "Highscores",
-        "Köln",
-        "mathe",
-        "Mathe",
-        "mathebuddy",
-        "Revisionsupdates",
-        "Schwenk",
-        "Taxonomiestufen"
-    ],
-    "cSpell.language": "en,de-de",
+  "cSpell.words": [
+    "Andreas",
+    "browserconfig",
+    "conglomerare",
+    "fontawesome",
+    "fortawesome",
+    "fundamentum",
+    "gamifizierte",
+    "Gamifizierung",
+    "Highscores",
+    "Köln",
+    "mathe",
+    "Mathe",
+    "mathebuddy",
+    "Revisionsupdates",
+    "Schwenk",
+    "Taxonomiestufen",
+    "vsix"
+  ],
+  "cSpell.language": "en,de-de"
 }
