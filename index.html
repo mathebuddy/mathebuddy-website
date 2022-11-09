@@ -220,41 +220,64 @@ image"
 
           <br />
 
-          <button
-            type="button"
-            class="btn btn-primary btn-lg"
-            onclick="window.open('docs-mbl.html', '_blank')"
-          >
-            mathe:buddy Language (MBL) Definition
-          </button>
-          <br /><br />
+          <div class="row">
+            <div class="col text-center">
+              <button
+                type="button"
+                class="btn btn-danger btn-lg"
+                onclick="window.open('docs-mbl.html', '_blank')"
+              >
+                mathe:buddy Language (MBL) Definition
+              </button>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                onclick="window.open('https://github.com/mathebuddy/mathebuddy-compiler', '_blank')"
+              >
+                <i class="fa-brands fa-github"></i>
+              </button>
+              <br /><br />
 
-          <button
-            type="button"
-            class="btn btn-primary btn-lg"
-            onclick="window.open('docs-smpl.html', '_blank')"
-          >
-            Simple Math Programming Language (SMPL) Definition
-          </button>
-          <br /><br />
+              <button
+                type="button"
+                class="btn btn-danger btn-lg"
+                onclick="window.open('docs-smpl.html', '_blank')"
+              >
+                Simple Math Programming Language (SMPL) Definition
+              </button>
+              <button
+                type="button"
+                class="btn btn-success btn-lg"
+                onclick="window.open('https://mathebuddy.github.io/mathebuddy-smpl/', '_blank')"
+              >
+                Playground
+              </button>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                onclick="window.open('https://github.com/mathebuddy/mathebuddy-smpl', '_blank')"
+              >
+                <i class="fa-brands fa-github"></i>
+              </button>
+              <br /><br />
 
-          <button
-            type="button"
-            class="btn btn-success btn-lg"
-            onclick="window.open('https://mathebuddy.github.io/mathebuddy-smpl/', '_blank')"
-          >
-            Simple Math Programming Language (SMPL) Playground
-          </button>
-          <br /><br />
-
-          <button
-            type="button"
-            class="btn btn-primary btn-lg"
-            onclick="window.open('docs-sim.html', '_blank')"
-          >
-            Simulator Guide
-          </button>
-          <br /><br />
+              <button
+                type="button"
+                class="btn btn-danger btn-lg"
+                onclick="window.open('docs-sim.html', '_blank')"
+              >
+                Simulator Guide
+              </button>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                onclick="window.open('https://github.com/mathebuddy/mathebuddy-simulator', '_blank')"
+              >
+                <i class="fa-brands fa-github"></i>
+              </button>
+              <br /><br />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -309,9 +332,13 @@ image"
     <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="node_modules/showdown/dist/showdown.min.js"></script>
 
-    <script src="index.js?v=202211091815"></script>
-
     <script>
+      // get current page by URL parameter "page"
+      let urlParameters = new URLSearchParams(window.location.search);
+      let page = urlParameters.get("page");
+      if (page == null) page = "home";
+
+      // links
       const navLinks = [
         // id, rendered name, href
         "home # Home # .",
@@ -321,8 +348,82 @@ image"
         "docs # Docs # .",
         'github # <i class="fa-brands fa-github"></i> # https://github.com/mathebuddy',
       ];
-      runSite(navLinks);
 
+      // ===== add navbar items =====
+      let htmlNavbar = "";
+      for (const link of navLinks) {
+        const tokens = link.split("#");
+        const id = tokens[0].trim();
+        const name = tokens[1].trim();
+        const active = id === page ? " active" : "";
+        let href = tokens[2].trim();
+        let target = "_self";
+        if (href === ".") {
+          href = "index.html?page=" + id;
+          const element = document.getElementById(id);
+          if (element != null) {
+            document.getElementById(id).style.display =
+              id === page ? "block" : "none";
+          }
+        } else target = "_blank";
+        htmlNavbar += '<li class="nav-item">';
+        htmlNavbar += "    <a ";
+        htmlNavbar += '        id="nav-link-' + id + '"';
+        htmlNavbar += '        class="nav-link' + active + '"';
+        htmlNavbar += '        aria-current="page"';
+        htmlNavbar += '        href="' + href + '"';
+        htmlNavbar += '        target="' + target + '"';
+        htmlNavbar += '        style="cursor: pointer"';
+        htmlNavbar += ">" + name + "</a></li>";
+      }
+      document.getElementById("navbar-items").innerHTML = htmlNavbar;
+
+      // ===== build blog from files from subdirectory blog/ =====
+      if (page === "blog") {
+        if (document.getElementById("blog-content") == null) {
+          console.log('HTML has no "blog-content" element');
+        }
+        axios.get("blog/list.txt?time=" + Date.now()).then(function (response) {
+          let lines = response.data.split("\n");
+          const filenames = [];
+          let html = "";
+          for (const line of lines) {
+            const data = line.trim();
+            if (data.length == 0) continue;
+            const tokens = data.split("#");
+            let filename = tokens[0].trim();
+            let image = "";
+            if (tokens.length > 1) image = tokens[1].trim();
+            filenames.push(filename);
+            html += "<br/>";
+            html += '<div class="shadow p-3">';
+            html += '    <div id="blog_' + filename + '" class="lead">';
+            html += "    </div>";
+            if (image.length > 0) {
+              html += '<div class="row text-center">';
+              html += '    <div class="col text-center">';
+              html +=
+                '        <img class="img-fluid mx-auto d-block" src="' +
+                image +
+                '" style="border-radius: 0px;"/>';
+              html += "    </div>";
+              html += "</div>";
+            }
+            html += "</div>";
+            html += "<br/>";
+          }
+          document.getElementById("blog-content").innerHTML = html;
+          for (const filename of filenames) {
+            axios.get("blog/" + filename).then(function (response) {
+              let html = "";
+              html += new showdown.Converter().makeHtml(response.data);
+              document.getElementById("blog_" + filename).innerHTML = html;
+            });
+          }
+        });
+      }
+
+      // update tooltips
       var tooltipTriggerList = [].slice.call(
         document.querySelectorAll('[data-bs-toggle="tooltip"]')
       );
