@@ -4,3 +4,7 @@ docs/build/
 .vscode/configurationCache.log
 .vscode/targets.log
 .vscode/dryrun.log
+
+docs-mbl.html
+docs-sim.html
+docs-smpl.html
