@@ -396,7 +396,7 @@ image"
         let href = tokens[2].trim();
         let target = "_self";
         if (href === ".") {
-          href = "index.html?page=" + id;
+          href = "index.html?page=" + id + "&time=" + Date.now();
           const element = document.getElementById(id);
           if (element != null) {
             document.getElementById(id).style.display =
