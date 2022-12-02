@@ -305,6 +305,16 @@ image"
               <br />
             </div>
           </div>
+
+          <h2>Changelog</h2>
+          <p>
+            The following changelog lists recent changes in documentation and
+            implementation (may be incomplete!).
+          </p>
+          <div class="border border-dark p-2">
+            <pre><code><span id="changelog"></span></code></pre>
+          </div>
+          <br />
         </div>
       </div>
     </div>
@@ -449,6 +459,15 @@ image"
           }
         });
       }
+
+      // show changelog
+      axios.get("changelog.txt?time=" + Date.now()).then(function (response) {
+        //let lines = response.data.split("\n");
+        //let html = lines.join("<br/>");
+        //let html = lines.join("\n");
+        let html = response.data;
+        document.getElementById("changelog").innerHTML = html;
+      });
 
       // update tooltips
       var tooltipTriggerList = [].slice.call(
