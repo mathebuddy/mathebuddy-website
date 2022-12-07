@@ -1,11 +1,9 @@
+(newest entries on top of this document)
 
-2022-12-02
+2022-12
+[MBL]  updated syntax for references and requirements to other chapters
 [SMPL] fixed subtraction of complex numbers
 [MBL]  redefinition of index-files
-
-2022-12-01
 [MBL]  rewrote data structures according to new [MBCL] guide
 [MBL]  added support for "rand(set(..))"
-
-2022-11-30
 [MBCL] defined Mathe:Buddy Compiled Language =: MBCL
