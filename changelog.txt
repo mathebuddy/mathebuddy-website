@@ -1,6 +1,7 @@
 (newest entries on top of this document)
 
 2022-12
+[MBL]  added examples from MBL-definition to public-courses repository
 [MBL]  updated syntax for references and requirements to other chapters
 [SMPL] fixed subtraction of complex numbers
 [MBL]  redefinition of index-files
