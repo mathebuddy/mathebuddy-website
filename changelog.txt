@@ -4,6 +4,7 @@ ONGOING:
 [MBL]  Re-implementation of compiler according to MBL definition
 
 2022-12
+[MBL]  changed syntax for dynamic multiple-choice questions
 [MBL]  added examples from MBL-definition to public-courses repository
 [MBL]  updated syntax for references and requirements to other chapters
 [SMPL] fixed subtraction of complex numbers
