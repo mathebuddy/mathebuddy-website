@@ -2,9 +2,9 @@
 
 ONGOING:
 [MBL]  Re-implementation of compiler according to MBL definition
-[SMPL] Function plots
 
 2022-12
+[SMPL] added function plots
 [MBL]  changed syntax of plotting functions
 [MBL]  changed syntax for dynamic multiple-choice questions
 [MBL]  added examples from MBL-definition to public-courses repository
