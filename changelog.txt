@@ -1,5 +1,3 @@
-(newest entries on top of this document)
-
 === WORK IN PROGRESS ===
 
 [MBL] Re-implementation of compiler according to MBL definition
@@ -7,13 +5,15 @@
 === ROADMAP / NEXT MILESTONES ===
 
 2022-12 [SIM]     Re-implementation of simulator according to new MBCL definition
-2022-01 [MBL+SIM] Implementation of gamified exercises
+2023-01 [MBL+SIM] Implementation of gamified exercises
 2023-02 [APP]     Software design of the App / first prototype
 2023-03 [MBL+SIM] Release of a first course chapter
 ..
 2023-09 [APP]     (Pre-)Release if the App with some chapters
 
 === CHANGELOG ===
+
+(newest entries on top of each list)
 
 2022-12
 
