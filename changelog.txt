@@ -1,9 +1,23 @@
 (newest entries on top of this document)
 
-ONGOING:
-[MBL]  Re-implementation of compiler according to MBL definition
+=== WORK IN PROGRESS ===
+
+[MBL] Re-implementation of compiler according to MBL definition
+
+=== ROADMAP / NEXT MILESTONES ===
+
+2022-12 [SIM]     Re-implementation of simulator according to new MBCL definition
+2022-01 [MBL+SIM] Implementation of gamified exercises
+2023-02 [APP]     Software design of the App / first prototype
+2023-03 [MBL+SIM] Release of a first course chapter
+..
+2023-09 [APP]     (Pre-)Release if the App with some chapters
+
+=== CHANGELOG ===
 
 2022-12
+
+[MBL]  enumerations (numbered itemization) now starts with "#."
 [MBL]  specified course index files (course.mbl)
 [SMPL] added function plots
 [MBL]  changed syntax of plotting functions
@@ -15,3 +29,11 @@ ONGOING:
 [MBL]  rewrote data structures according to new [MBCL] guide
 [MBL]  added support for "rand(set(..))"
 [MBCL] defined Mathe:Buddy Compiled Language =: MBCL
+
+=== LEGEND ===
+
+- MBL := Mathe:Buddy Language
+- MBCL := Mathe:Buddy Compiled Language
+- SMPL := Simple Math Programming Langauge
+- SIM := Mathe:Buddy Simulator
+- APP := ios/Android App
