@@ -4,6 +4,7 @@ ONGOING:
 [MBL]  Re-implementation of compiler according to MBL definition
 
 2022-12
+[MBL]  specified course index files (course.mbl)
 [SMPL] added function plots
 [MBL]  changed syntax of plotting functions
 [MBL]  changed syntax for dynamic multiple-choice questions
