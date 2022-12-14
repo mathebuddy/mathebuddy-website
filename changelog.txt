@@ -1,10 +1,9 @@
 === WORK IN PROGRESS ===
 
-[MBL] Re-implementation of compiler according to MBL definition
+[SIM]  Re-implementation of simulator according to new MBCL definition
 
 === ROADMAP / NEXT MILESTONES ===
 
-2022-12 [SIM]     Re-implementation of simulator according to new MBCL definition
 2023-01 [MBL+SIM] Implementation of gamified exercises
 2023-02 [APP]     Software design of the App / first prototype
 2023-03 [MBL+SIM] Release of a first course chapter
@@ -17,6 +16,7 @@
 
 2022-12
 
+[MBL]  Re-implementation of compiler according to MBL definition
 [MBL]  enumerations (numbered itemization) now starts with "#."
 [MBL]  specified course index files (course.mbl)
 [SMPL] added function plots
