@@ -1,5 +1,6 @@
 node_modules/
 .DS_Store
+.blend1
 docs/build/
 .vscode/configurationCache.log
 .vscode/targets.log
